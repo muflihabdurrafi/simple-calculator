@@ -1,0 +1,54 @@
+body {
+    background-color: #dbdbdb;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* id selector */
+
+#title {
+    font-size: 2rem;
+}
+
+#result {
+    background-color: black;
+    color: white;
+    margin: 3% auto;
+    width: 60%;
+    height: 100px;
+    font-size: 3rem;
+}
+
+#footer {
+    margin: 3% auto;
+}
+
+/* class selector */
+
+.btn {
+    width: 15%;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+.input {
+    background-color: #cfcfcf;
+}
+.input:hover {
+    background-color: gray;
+}
+
+.operator {
+    background-color: gray;
+}
+
+.operator:hover {
+    background-color: #cfcfcf;
+}
+
+.row {
+    width: 100%;
+}
